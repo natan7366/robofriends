@@ -9,7 +9,7 @@ const Card = ( props ) => {
 		<div className ='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
 			{/*<img alt='robots' src={`https://robohash.org/test?200x200`}/>*/}
 			{/*<img alt='robots' src={`https://robohash.org/${props.id}?200x200`}/> $ - using template strings (from the ES6 section) and that way we randomize the id selection*/}
-			<img alt='robots' src={`https://robohash.org/${props.id}?50x50`}/> {/*without props because we already define the props at line 4*/}
+			<img alt='robots' src={`https://robohash.org/${props.id}?200x200`}/> {/*without props because we already define the props at line 4*/}
 			<div>
 				<h2>{props.name}</h2> {/* props.name won't work because it is jsx and not html so we neeed {props.name}*/}
 				<p>{props.email}</p>
